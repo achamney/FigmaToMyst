@@ -1,0 +1,107 @@
+body {
+    padding: 20px;
+    background-color: #F0F0F0;
+    font-family: sans-serif;
+    color: #232322;
+}
+.floatright {
+    float: right;
+}
+button {
+    border: none;
+    background-color: #D9D9DA;
+    border-radius: 15px;
+    padding: 10px 15px;
+}
+button.primary{
+    background-color: #CC0022;
+    color: white;
+    padding: 20px 30px;
+    font-weight: 700;
+}
+.idiv {
+    display: inline-block;
+}
+.box {
+    padding: 10px;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.flex1 {
+    flex:1;
+}
+h1 {
+    margin: 5px;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+h2 {
+    margin: 4px;
+    font-size: 20px;
+}
+h3 {
+    margin: 4px;
+    font-size: 18px;
+}
+h5 {
+    margin: 4px;
+}
+.status {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.statusbutton {
+    display: flex;
+    border: 1px solid black;
+    padding: 5px;
+    padding-right: 7px;
+    margin-right: 10px;
+    border-radius: 10px;
+    white-space: nowrap;
+}
+.statusbutton img {
+    padding-right: 5px;
+}
+.statusbutton.green {
+    border-color: #3D978D;
+    background-color: #DDFFF5;
+}
+.statusbutton.yellow {
+    border-color: #DE7B17;
+    background-color: #FCE8D2;
+}
+.statusbutton.red {
+    border-color:#B21E29;
+    background-color: #FFE1DE;
+}
+.item {
+    display: flex;
+    margin-bottom: 10px;
+}
+.item * {
+    padding: 5px;
+}
+.item img {
+    padding-right:10px;
+}
+.item span {
+    text-align: left;
+}
+.item button {
+    padding: 10px 20px;
+    border: 3px solid #D9D9DA;
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 20px;
+}
+.flex1.sml {
+    margin: 0px -20px;
+}
+.center {
+    text-align: center;
+}
