@@ -3,6 +3,7 @@ body {
     background-color: #F0F0F0;
     font-family: sans-serif;
     color: #232322;
+    max-width: 360px; /*Artifically limit size of screen for mobile specific viewing. This will be done by media query in prod */
 }
 .floatright {
     float: right;
